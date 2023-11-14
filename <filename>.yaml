@@ -1,0 +1,125 @@
+openapi: 3.0.0
+info:
+  title: <title>
+  version: <version>
+paths:
+  /SPKusers:
+    get:
+      summary: Get all SPKusers
+      responses:
+        '200':
+          description: Returns all SPKusers
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/SPKusers'
+  /customers:
+    get:
+      summary: Get all customers
+      responses:
+        '200':
+          description: Returns all customers
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/customers'
+  /employees:
+    get:
+      summary: Get all employees
+      responses:
+        '200':
+          description: Returns all employees
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/employees'
+  /offices:
+    get:
+      summary: Get all offices
+      responses:
+        '200':
+          description: Returns all offices
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/offices'
+  /orderdetails:
+    get:
+      summary: Get all orderdetails
+      responses:
+        '200':
+          description: Returns all orderdetails
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/orderdetails'
+  /orders:
+    get:
+      summary: Get all orders
+      responses:
+        '200':
+          description: Returns all orders
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/orders'
+  /payments:
+    get:
+      summary: Get all payments
+      responses:
+        '200':
+          description: Returns all payments
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/payments'
+  /productlines:
+    get:
+      summary: Get all productlines
+      responses:
+        '200':
+          description: Returns all productlines
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/productlines'
+  /products:
+    get:
+      summary: Get all products
+      responses:
+        '200':
+          description: Returns all products
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/products'
+  /users:
+    get:
+      summary: Get all users
+      responses:
+        '200':
+          description: Returns all users
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/users'
