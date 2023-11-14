@@ -10,10 +10,10 @@ const fs = require('fs');
 
 // Create a connection to the MySQL database
 const connection = mysql.createConnection({
-  host: '<hostname>',
-  user: '<username>',
-  password: '<password>',
-  database: '<database_name>'
+  host: 'mi3-ss121.a2hosting.com',
+  user: 'bdpamked',
+  password: 'U;qibKs[2KC607',
+  database: 'bdpamked_student_DB'
 });
 
 // Connect to the MySQL database
